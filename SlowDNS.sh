@@ -627,7 +627,7 @@ EOF
 
 cat <<EOF > /etc/systemd/system/slowdns.service
 [Unit]
-Description=DNSTT Service by @Rufu99
+Description=DNSTT Service by Bornalibd
 After=network.target
 StartLimitIntervalSec=0
 
@@ -832,7 +832,7 @@ DATA_C(){
 }
 
 menu_udp(){
-	title "slowDNS configuration script BY @Rufu99"
+	title "SlowDNS configuration script BY Bornalibd"
   
 	if [[ $(type -p dns-server) ]]; then
     print_center -ama "Ports: 53 5300"
